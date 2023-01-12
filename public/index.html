@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>Pierre Coeffeteau | Portfolio</title>
+  <meta name="description" content="Self Developed personal website build with React.js">
+  <link rel="apple-touch-icon" href="logo192.png" />
+  <link rel="shortcut icon" href="./src/Assets/favicon.png"><meta
+        name="description"
+        content="Web site created using create-react-app"
+/>
+  <link rel=”manifest” href="manifest.json">
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="description" content="Self Developed personal website build with React.js">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pierre Coeffeteau  | Portfolio">
+  <meta property="og:description" content="Self Developed personal website build with React.js">
+
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pierre Coeffeteau | Portfolio">
+  <meta name="twitter:description" content="Self Developed personal website build with React.js">
+ 
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('serviceWorker.js').then(function(registration) {
+// Registration was successful
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }, function(err) {
+        console.log('ServiceWorker registration failed: ', err);
+      });
+    });
+  }
+</script>
+<script src="https://tarteaucitron.io/load.js?domain=pierrec.fr&uuid=427b5c77cbc92b7f52b0dc06c0481c9bd5bc511d"></script>
+</html>
